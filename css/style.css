@@ -14,7 +14,9 @@ ol {
 }
 img {
     max-width: 100%;
+  
 }
+
 /* layout */
 .container {
     max-width: 700px;
@@ -34,7 +36,48 @@ img {
     position:relative;
     
 }
+/*text*/
+body {
+    font-family: "Noto Sans JP", sans-serif;
+}
+p span {
+    color: black;
+    text-decoration: line-through;
+}
+h3 {
+    font-size: 10px;
+    font-weight: 800;
+}
+.under-img p:last-child {
+    font-size:8px;
+    color:red;
+    font-weight: 800;
+}
+.under-img p:first-child {
+    font-size: 10px;    
+}
+/*features*/
+.heart span {
+    display:inline-block;
+    font-size: 10px;
+}
+.heart span:hover {
+    color: red;
+    font-size: 17px;
+}
 /*position*/
+.heart {
+    position:absolute;
+    background-color: white;
+    padding:4px 4px;
+    top:10px;
+    right:6px;
+
+
+}
+.under-img {
+    margin-bottom: 20px;
+}
 .discount {
     background-color: rgb(242, 68, 15);
     position:absolute;
@@ -44,9 +87,24 @@ img {
     padding: 4px 4px;
     font-weight: 550;
 }
-.discount p {
-    
+.sustain {
+    background-color: rgb(10, 147, 10);
+    position:absolute;
+    bottom:90px;
+    left:40px;
+    color: white;
+    font-size: 7px;
+    padding: 4px 4px;
+    font-weight: 550;
 }
+#different-left {
+    left:3px;
+}
+.discount.dif-pos {
+    bottom:70px;
+}
+   
+
 
 /*debug*/
 .debug {
