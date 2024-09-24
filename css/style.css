@@ -17,7 +17,7 @@ img {
 }
 /* layout */
 .container {
-    max-width: 800px;
+    max-width: 700px;
     margin:0 auto;
     
 }
@@ -26,12 +26,18 @@ img {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    
+}
+.col {
+    flex-basis: 33.33%;
+    padding:0 4px;
+    
 }
 
 /*debug*/
 .debug {
     background-color: blue;
-    flex-basis: 33.33%;
+    
     border: 2px dashed red;
     min-height: 300px;
     
